@@ -4,6 +4,7 @@ import Image from "next/image";
 import LogoImage from "../public/logo/logo.webp";
 import Link from "next/link";
 import { Link as ScrollLink, Element } from "react-scroll";
+import { GoogleReviews } from "@/components/demos/google-reviews";
 
 export default function Home() {
   return (
@@ -58,9 +59,9 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="tel:+13463869130" className="hidden xl:flex">
+          <a href="tel:+13462982112" className="hidden xl:flex">
             <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (346) 386-9130
+              (346) 298-2112
             </button>
           </a>
           <Link
@@ -71,6 +72,12 @@ export default function Home() {
           </Link>
         </div>
       </Element>
+
+      <main className="md:pb-10">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
+          <GoogleReviews />
+        </div>
+      </main>
     </div>
   );
 }
