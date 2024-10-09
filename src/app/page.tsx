@@ -5,6 +5,7 @@ import LogoImage from "../public/logo/logo.webp";
 import Link from "next/link";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { GoogleReviews } from "@/components/demos/google-reviews";
+import { Hero } from "@/components/demos/hero";
 
 export default function Home() {
   return (
@@ -76,6 +77,7 @@ export default function Home() {
       <main className="md:pb-10">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
           <GoogleReviews />
+          <Hero />
         </div>
       </main>
     </div>
