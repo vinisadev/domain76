@@ -6,6 +6,8 @@ import Link from "next/link";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { GoogleReviews } from "@/components/demos/google-reviews";
 import { CoverSection } from "@/components/demos/cover-section";
+import BoxReveal from "@/components/ui/box-reveal";
+import { PiCheckBold } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -97,6 +99,32 @@ export default function Home() {
           >
             Showcase
           </Link>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-centered text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
+          <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+              <PiCheckBold className="text-xl text-blue-500" />
+              Design
+            </p>
+          </BoxReveal>
+          <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+              <PiCheckBold className="text-xl text-blue-500" />
+              Development
+            </p>
+          </BoxReveal>
+          <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+              <PiCheckBold className="text-xl text-blue-500" />
+              Marketing
+            </p>
+          </BoxReveal>
+          <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
+            <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
+              <PiCheckBold className="text-xl text-blue-500" />
+              Strategy
+            </p>
+          </BoxReveal>
         </div>
       </main>
     </div>
