@@ -10,6 +10,7 @@ import { PiCheckBold } from "react-icons/pi";
 import NumberTicker from "@/components/ui/number-ticker";
 import { InfiniteMovingLogos } from "@/components/ui/infinite-moving-logos";
 import { HeadingPullUp } from "@/components/demos/heading-pull-up";
+import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity";
 
 const services = [
   {
@@ -281,6 +282,10 @@ export default function Home() {
           </div>
         </div>
       </Element>
+
+      <section className="py-20">
+        <ScrollBasedVelocityDemo />
+      </section>
     </div>
   );
 }
