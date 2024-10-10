@@ -27,7 +27,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/terms/page.mdx",
-    "src/app/terms/page.mdx"
+    "src/app/terms/page.mdx",
+    "src/app/privacy/page.mdx",
+    "src/app/refund/page.mdx"
   ],
   "exclude": ["node_modules"]
 }
