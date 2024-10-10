@@ -20,8 +20,16 @@ const Footer = () => {
 
       <div className="flex md:justify-center gap-x-4 mt-10">
         © 2024 domain76. All Rights Reserved.
-        <Link href="/" className="text-blue-500">
+        <Link href="/privacy" className="text-blue-500">
           Privacy Policy
+        </Link>{" "}
+        |{" "}
+        <Link href="/terms" className="text-blue-500">
+          Terms of Service
+        </Link>{" "}
+        |{" "}
+        <Link href="/refund" className="text-blue-500">
+          Refund Policy
         </Link>
       </div>
     </footer>
