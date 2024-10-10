@@ -61,9 +61,9 @@ const ShowcaseNavbar = () => {
       </div>
 
       <div className="flex items-center gap-x-4">
-        <a href="tel:5193191562" className="hidden xl:flex">
+        <a href="tel:+13462982112" className="hidden xl:flex">
           <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-            (519)-319-1562
+            (346) 298-2112
           </button>
         </a>
 
