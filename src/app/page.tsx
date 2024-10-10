@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-// import LogoImage from "../public/logo/logo.webp";
 import Link from "next/link";
 import { Link as ScrollLink, Element } from "react-scroll";
 import { GoogleReviews } from "@/components/demos/google-reviews";
@@ -64,7 +63,6 @@ export default function Home() {
       >
         <Link href={"/"}>
           <Image
-            // src={LogoImage}
             src={"/logo/logo.webp"}
             alt="Logo"
             height={1000}
