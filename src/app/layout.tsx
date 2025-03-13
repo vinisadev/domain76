@@ -7,8 +7,8 @@ const font = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "domain76",
-  description: "Software - Design - Marketing",
+  title: "domain76 | Design & Development",
+  description: "Software - Web - Marketing",
 };
 
 export default function RootLayout({
